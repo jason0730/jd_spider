@@ -61,9 +61,9 @@ LOG_LEVEL = 'INFO'
 # 数据库的配置，请将下面的换成你自己的数据库配置
 DB_HOST = 'localhost'  # 主机名
 DB_PORT = 3306  # 端口号
-DB_USER = 'root'    # 用户名
-DB_PASSWD = 'xiaoquantou'  # 密码
-DB_DB = 'test'  # 数据库名
+DB_USER = 'jd'    # 用户名
+DB_PASSWD = 'jdtest'  # 密码
+DB_DB = 'jd'  # 数据库名
 
 ITEM_PIPELINES = {
     'jd_spider.pipelines.MySQLPipeline': 300,  # 抓取商品信息时，使用该通道
